@@ -105,9 +105,9 @@ body {
 }
 
 .source {
-  font-size: 9pt;
+  font-size: 11pt;
   font-style: italic;
-  color: gray;
+  color: #555;
 }
 a.source:visited {
   color: grey;
@@ -116,8 +116,9 @@ a.source:visited {
 .description {
   margin: 20px;
   text-align: left;
-  font-size: 11pt;
+  font-size: 12pt;
   padding: 20px;
+  background-color: #fff;
 }
 
 .in-focus {
@@ -146,11 +147,10 @@ a.source:visited {
 
 /* Storymap logo image above the title */
 #logo {
-  height: 30px;
-  line-height: 30px;
+  height: 50px;
+  line-height: 50px;
   text-align: center;
-  padding: 10px;
-  max-width: 100%;
+  padding: 20px;
 }
 
 #logo img {
