@@ -1,34 +1,32 @@
-body {
-  padding: 10px;
-   margin: 0px;
-  font-family: "Arial", sans-serif;
+ body {
+  padding: 0px;
+  margin: 0px;
+  font-family: "Helvetica", sans-serif;
   overflow: hidden;
-  background-color: #f0f0f0;
 }
 
 #map {
-  height: calc(100vh - 223px);
+  height: 200px;
   width: 100vw;
   position: absolute;
-  border-bottom: 5px solid #FFA500;
+  border-bottom: 3px solid orange;
   top: 0;
   left: 0;
 }
 
 #narration {
   position: absolute;
-  top: 223px;
+  top: 203px;
   width: 100vw;
-  height: calc(100vh - 223px);
+  height: calc(100vh - 203px);
   z-index: 80;
-  background-color: #fff;
 }
 
 #contents {
-  padding: 20px;
+  padding: 0;
   width: 100%;
-  margin-top: 0;
-  height: 100%;
+  margin-top: 0; /*Adjust if Title header needs more space */
+  height: 100%; /* Adjust to fit max Description length, one setting for all; alternative is 100% */
   overflow-y: scroll;
   overflow-x: hidden;
 }
@@ -105,9 +103,9 @@ body {
 }
 
 .source {
-  font-size: 11pt;
+  font-size: 9pt;
   font-style: italic;
-  color: #555;
+  color: gray;
 }
 a.source:visited {
   color: grey;
@@ -116,9 +114,8 @@ a.source:visited {
 .description {
   margin: 20px;
   text-align: left;
-  font-size: 12pt;
+  font-size: 11pt;
   padding: 20px;
-  background-color: #fff;
 }
 
 .in-focus {
@@ -147,10 +144,11 @@ a.source:visited {
 
 /* Storymap logo image above the title */
 #logo {
-  height: 50px;
-  line-height: 50px;
+  height: 30px;
+  line-height: 30px;
   text-align: center;
-  padding: 20px;
+  padding: 10px;
+  max-width: 100%;
 }
 
 #logo img {
